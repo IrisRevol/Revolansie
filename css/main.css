@@ -1,15 +1,40 @@
-.jumbotron-fluid {
-  background-image: url("../images/colourful.jpg");
+body {
+  background-image: url("../images/colourfulpic.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
 }
+
 .navbar-inverse {
-  background-color: rgba(32, 35, 41, 0)
+  background-color: rgba(32, 35, 41, 0);
+  border: 1px solid transparent;
+}
+.navbar-inverse .navbar-brand {
+  font-family: 'Bad Script', cursive;
+  font-size: 35px;
+  color: yellow;
 }
 h1 {
-  color: yellow;
-  font-size: 600px;
+  color: black;
+  font-size: 60px;
   font-family: 'Bad Script', cursive;
   border: 1px solid transparent;
   text-align: center;
+  margin-top: 60px;
+  margin-left: 250px;
+  margin-right: 100px;
   display: inline-block;
+}
+.navbar-nav {
+  font-size: 25px;
+  font-family: 'Bad Script', cursive;
+}
+.navbar-inverse .navbar-nav .menu-aboutus {
+  color: blue;
+}
+.navbar-inverse .menu-ourmission {
+  color: red;
+}
+.navbar-inverse .menu-contactus {
+  color: green;
 }
