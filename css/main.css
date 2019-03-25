@@ -1,15 +1,15 @@
-.jumbatron {
-  background-iamge: url("../images/colourful.jpg");
+.jumbotron {
+  background-image: url("../images/colourful.jpg");
   background-size: cover;
-}
-title {
-  color: yellow;
-  font-size: 160px;
-  font-family: 'Poppins';
-}
-body {
-  background-image: "images/colourful.jpg";
 }
 .navbar-inverse {
   background-color: rgba(32, 35, 41, 0)
+}
+h1 {
+  color: yellow;
+  font-size: 600px;
+  font-family: 'Poppins';
+  border: 1px solid transparent;
+  text-align: center;
+  display: inline-block;
 }
