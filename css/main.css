@@ -1,6 +1,6 @@
-h1 {
-  color: yellow;
-}
+.jumbatron {
+  background-iamge: url("../images/colourful.jpg");
+  background-size: cover;
 }
 title {
   color: yellow;
@@ -9,4 +9,7 @@ title {
 }
 body {
   background-image: "images/colourful.jpg";
+}
+.navbar-inverse {
+  background-color: rgba(32, 35, 41, 0)
 }
