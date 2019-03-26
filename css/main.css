@@ -20,7 +20,7 @@ h1 {
   font-family: 'Bad Script', cursive;
   border: 1px solid transparent;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 250px;
   margin-right: 100px;
   display: inline-block;
@@ -29,12 +29,7 @@ h1 {
   font-size: 25px;
   font-family: 'Bad Script', cursive;
 }
-.navbar-inverse .navbar-nav .menu-aboutus {
-  color: blue;
-}
-.navbar-inverse .menu-ourmission {
-  color: red;
-}
-.navbar-inverse .menu-contactus {
-  color: green;
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
 }
