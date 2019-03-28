@@ -20,9 +20,10 @@ h1 {
   font-family: 'Poppins', cursive;
   border: 1px solid transparent;
   text-align: center;
-  margin-top: 15px;
-  margin-left: 290px;
+  margin-top: 10px;
+  margin-left: 250px;
   margin-right: 100px;
+  padding:30px;
   display: inline-block;
 }
 .navbar-nav {
@@ -37,4 +38,12 @@ h1 {
 }
 .navbar-inverse .navbar-nav .menu-contactus {
   color: #7FFF00;
+}
+.col-md-2 {
+  position: relative;
+  display: block:run-in;
+  max-width: 650px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 150px;
 }
