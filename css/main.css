@@ -20,11 +20,10 @@ h1 {
   font-family: 'Poppins', cursive;
   border: 1px solid transparent;
   text-align: center;
-  margin-top: 10px;
-  margin-left: 250px;
-  margin-right: 100px;
-  padding:30px;
-  display: inline-block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .navbar-nav {
   font-size: 15px;
@@ -62,8 +61,8 @@ h1 {
   font-family: 'Poppins';
 
 }
-#feelingsform {
-  font-size: 25px;
+.formgroup {
+  font-size: 15px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -72,4 +71,18 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%) translateY(-50%);
+}
+.dogpic {
+  height: 150px;
+  width: 150px;
+}
+#dogpic1 {
+  float: left;
+}
+#dogpic2 {
+  float: right;
+}
+img {
+  border-radius: 50%;
+  margin-left: 50px;
 }
