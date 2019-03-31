@@ -57,7 +57,7 @@ h1 {
   background-color: #FFA500;
 }
 .btn-secondary {
-  margin-left: 300px;
+  margin-left: 0;
   font-family: 'Poppins';
 
 }
@@ -71,7 +71,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%) translateY(-50%);
-  min-height: 200px;
+  margin-top: 75px;
 }
 .dogpic {
   height: 150px;
@@ -94,4 +94,5 @@ img {
    top: 50%;
    left: 50%;
    transform: translate(-50%) translateY(-50%);
+   margin-top: 150px;
  }
