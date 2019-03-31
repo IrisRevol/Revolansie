@@ -36,17 +36,14 @@
     </p>
   </div>
     <!-- Form -->
-    <form>
-      <div class="formgroup">
-        <label for="NameText">Your Name</label>
-          <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="First & Last name">
-        <label for="InputEmail">Your Email Address</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
-        <label for="InputEmail">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
-        <button type="submit" class="btn btn-secondary" onclick="alert('Thanks for getting in touch with us - we will try and get back to you as soon as we can!'')">Submit </button>
-      </div>
-    </form>
+    <div class="formcontactus">
+        <form action="mailto:irisrevol03@gmail.com " method="post" enctype="text/plain">
+          Your Name<br><input type="text"><br>
+          Your email address<br><input type="text"><br>
+          Your message  <br><input type="text" size="50"><br>
+          <br><input type="submit" value="Send"><br>
+        </form>
+    </div>
 
   <div id='social-buttons'>
       <button class="btn btn-lg btn-twitter">Twitter</button>

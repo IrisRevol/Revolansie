@@ -127,3 +127,30 @@ img {
   background: #DD3B73;
   font-size: 14px;
 }
+
+.formcontactus{
+  margin: 20 350 20 350;
+  padding: 20px;
+  font-family: 'Poppins', cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+input[type=text] {
+  color: black;
+  text-align: center;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', cursive;
+}
