@@ -108,3 +108,22 @@ img {
   font-family: 'Poppins', cursive;
   font-size: 15px;
 }
+
+#social-buttons {
+  color: white;
+  font-family: 'Poppins', cursive;
+  margin-top: 30px;
+  text-align: center;
+}
+.btn-twitter {
+  background: #38A1F2;
+  font-size: 14px;
+}
+.btn-facebook {
+  background: #3B5998;
+  font-size: 14px;
+}
+.btn-instagram {
+  background: #DD3B73;
+  font-size: 14px;
+}
