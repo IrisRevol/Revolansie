@@ -1,7 +1,7 @@
 <html>
 
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
+<link href="css/contactus.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 <body>
@@ -26,23 +26,15 @@
 
 <h1> Contact Us </h1>
 
-<p>
-  <strong>
-    <br>
-    Your mental health is important, and writing down your feelings is hugely beneficial. However, if you would like to speak to one of our staff, or have any questions, please feel free to email us.
-    </strong>
-    </p>
+  <p>
+    <h2>Your mental health is important, and writing down your feelings is hugely beneficial. However, if you would like to speak to one of our staff, or have any questions, please feel free to email us.</h2>
+  </p>
     <!-- Form -->
-    <form>
-      <div class="form group">
-        <label for="NameText">Your Name</label>
-        <inout type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First & Last name">
-          <br>
-          <label for="InputEmail">Your Email Address</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
-          <br>
-          <label for="InputEmail">Question</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
-          </div>
-      <button type="submit" class="btn btn-secondary" onclick="alert('Thanks for getting in touch with us - we will try and get back to you as soon as we can!'')">Submit </button>
-    </form>
+    <div class="container">
+      <form action="mailto:irisrevol03@gmail.com " method="post" enctype="text/plain">
+        Your Name<br><input type="text"><br>
+        Your email address<br><input type="text"><br>
+        Your message  <br><input type="text" size="50"><br>
+        <br><input type="submit" value="Send"><br>
+      </form>
+    </div>
