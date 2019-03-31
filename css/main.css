@@ -101,3 +101,9 @@ img {
   float: center;
   text-align: center;
 }
+
+#buzz {
+  color: black;
+  font-family: 'Poppins', cursive;
+  font-size: 15px;
+}
