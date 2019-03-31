@@ -1,15 +1,8 @@
 <html>
 
-<script src="scripts/main.js"></script>
-
-<head>
-  <title>Bark</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
-
-</head>
 
 <body>
 <nav class="navbar navbar-inverse">
@@ -19,7 +12,7 @@
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span> <span class="icon-bar"></span>
-        </button> <a href="#" class="navbar-brand">Bark</a>
+        </button> <a href="index.html" class="navbar-brand">Bark</a>
       </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
             <ul class="nav navbar-nav navbar-right">
@@ -30,3 +23,26 @@
           </div>
         </div>
       </nav>
+
+<h1> Contact Us </h1>
+
+<p>
+  <strong>
+    <br>
+    Your mental health is important, and writing down your feelings is hugely beneficial. However, if you would like to speak to one of our staff, or have any questions, please feel free to email us.
+    </strong>
+    </p>
+    <!-- Form -->
+    <form>
+      <div class="form group">
+        <label for="NameText">Your Name</label>
+        <inout type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First & Last name">
+          <br>
+          <label for="InputEmail">Your Email Address</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
+          <br>
+          <label for="InputEmail">Question</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+          </div>
+      <button type="submit" class="btn btn-secondary" onclick="alert('Thanks for getting in touch with us - we will try and get back to you as soon as we can!'')">Submit </button>
+    </form>
