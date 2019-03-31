@@ -1,0 +1,88 @@
+body {
+  background-image: url("../images/colourfulpic.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41, 0);
+  border: 1px solid transparent;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Poppins', cursive;
+  font-size: 25px;
+  color: #ffae42;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  font-family: 'Poppins', cursive;
+}
+
+.navbar-inverse .navbar-nav .menu-aboutus {
+  color: blue;
+}
+
+.navbar-inverse .navbar-nav .menu-ourmission {
+  color: red;
+}
+
+.navbar-inverse .navbar-nav .menu-contactus {
+  color: #7FFF00;
+}
+
+.col-md-2 {
+  position: relative;
+  display: block:run-in;
+  max-width: 650px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'Poppins', cursive;
+  color: #7FFF00;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 100px;
+  padding:30px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: 'Poppins', cursive;
+  color: black;
+  text-align: center;
+  margin: 10 10 10 10;
+}
+
+.container{
+  margin: auto;
+  padding: 20px;
+  font-family: 'Poppins', cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+input[type=text] {
+  color: black;
+  text-align: center;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', cursive;
+}
