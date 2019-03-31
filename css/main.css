@@ -10,26 +10,40 @@ body {
   border: 1px solid transparent;
 }
 .navbar-inverse .navbar-brand {
-  font-family: 'Bad Script', cursive;
-  font-size: 35px;
-  color: yellow;
+  font-family: 'Poppins', cursive;
+  font-size: 25px;
+  color: #ffae42;
 }
 h1 {
   color: black;
-  font-size: 60px;
-  font-family: 'Bad Script', cursive;
+  font-size: 45px;
+  font-family: 'Poppins', cursive;
   border: 1px solid transparent;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 250px;
   margin-right: 100px;
+  padding:30px;
   display: inline-block;
 }
 .navbar-nav {
-  font-size: 25px;
-  font-family: 'Bad Script', cursive;
+  font-size: 15px;
+  font-family: 'Poppins', cursive;
 }
-
-.navbar-inverse .navbar-nav > li > a {
-  color: black;
+.navbar-inverse .navbar-nav .menu-aboutus {
+  color: blue;
+}
+.navbar-inverse .navbar-nav .menu-ourmission {
+  color: red;
+}
+.navbar-inverse .navbar-nav .menu-contactus {
+  color: #7FFF00;
+}
+.col-md-2 {
+  position: relative;
+  display: block:run-in;
+  max-width: 650px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 150px;
 }
