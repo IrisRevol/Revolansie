@@ -95,9 +95,10 @@ img {
    top: 50%;
    left: 50%;
    transform: translate(-50%) translateY(-50%);
-   margin-top: 150px;
+   margin-top: 200px;
+   text-align: center;
  }
-#mrmen {
+.mrmen {
   float: center;
   text-align: center;
 }
