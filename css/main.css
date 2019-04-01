@@ -147,7 +147,7 @@ img {
 }
 
 .formhowareyoufeeling {
-  height: 300;
+  height: 600;
   width: 480;
   margin: auto;
   margin-top: 50px;
@@ -179,4 +179,14 @@ button[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Poppins', cursive;
+}
+.textform input {
+  height: 50px;
+  width: 400px;
+}
+
+
+.textform input.secondinput {
+  height: 200px;
+  width: 400px;
 }
