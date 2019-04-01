@@ -1,13 +1,14 @@
 <html>
 
-<script src="scripts/main.js"></script>
-
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="js/jquery-3.2.1.min.js"></script>
+</head>
 
 <body>
-<nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
@@ -16,36 +17,40 @@
           <span class="icon-bar"></span> <span class="icon-bar"></span>
         </button> <a href="index.html" class="navbar-brand">Bark</a>
       </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="aboutus.html" class="menu-aboutus">About us</a></li>
-              <li><a href="ourmission.html" class="menu-ourmission">Our Mission</a></li>
-              <li><a href="contactus.html" class="menu-contactus">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="aboutus.html" class="menu-aboutus">About us</a></li>
+          <li><a href="ourmission.html" class="menu-ourmission">Our Mission</a></li>
+          <li><a href="contactus.html" class="menu-contactus">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<h1> Contact Us </h1>
+  <h1> Contact Us </h1>
 
   <div id="content">
     <img src="images/bark.jpg" class="dogpic" id="dogpic1">
     <img src="images/bark.jpg" class="dogpic" id="dogpic2">
     <p id="Bio">
-        <strong>Your mental health is important, and writing down your feelings is hugely beneficial. However, if you would like to speak to one of our staff, or have any questions, please do not hesitate to email us.</strong>
+      <strong>Your mental health is important, and writing down your feelings is hugely beneficial. However, if you would like to speak to one of our staff, or have any questions, please do not hesitate to email us.</strong>
     </p>
   </div>
-    <!-- Form -->
+
+  <!-- Form -->
+  <form>
     <div class="formcontactus">
-          Your Name<br><input type="text"><br>
-          Your email address<br><input type="text"><br>
-          Your message  <br><input type="text" size="50"><br>
-          <button type="submit" class="btn btn-secondary" onclick="alert('Thanks for getting in touch with us - we will try and get back to you as soon as we can!'')">Submit </button>
-        </form>
+      Your Name<br><input type="text"><br>
+      Your email address<br><input type="text"><br>
+      Your message  <br><input type="text" size="50"><br>
+      <button type="submit" class="btn btn-secondary" onclick="alert('Thanks for getting in touch with us - we will try and get back to you as soon as we can!'')">Submit </button>
     </div>
+  </form>
 
   <div id='social-buttons'>
-      <button class="btn btn-lg btn-twitter">Twitter</button>
-      <button class='btn btn-lg btn-facebook'>Facebook</button>
-      <button class='btn btn-lg btn-instagram'>Instagram</button>
+    <button class="btn btn-lg btn-twitter">Twitter</button>
+    <button class='btn btn-lg btn-facebook'>Facebook</button>
+    <button class='btn btn-lg btn-instagram'>Instagram</button>
   </div>
+
+</html>
