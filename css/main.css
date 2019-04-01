@@ -9,11 +9,13 @@ body {
   background-color: rgba(32, 35, 41, 0);
   border: 1px solid transparent;
 }
+
 .navbar-inverse .navbar-brand {
   font-family: 'Poppins', cursive;
   font-size: 25px;
   color: #ffae42;
 }
+
 h1 {
   color: black;
   font-size: 45px;
@@ -25,6 +27,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 .navbar-nav {
   font-size: 15px;
   font-family: 'Poppins', cursive;
@@ -138,6 +141,22 @@ img {
   color: black;
   border-radius: 5px;
   background-color: orange;
+}
+
+.formhowareyoufeeling {
+  margin: 100 350 20 350;
+  padding: 20px;
+  font-family: 'Poppins', cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.formhowareyoufeeling .textform {
+  padding: 10;
 }
 
 button[type=text] {
