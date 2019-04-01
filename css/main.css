@@ -132,7 +132,10 @@ img {
 }
 
 .formcontactus{
-  margin: 20 350 20 350;
+  height: 250;
+  width: 480;
+  margin: auto;
+  margin-top: 50px;
   padding: 20px;
   font-family: 'Poppins', cursive;
   color: white;
@@ -144,7 +147,10 @@ img {
 }
 
 .formhowareyoufeeling {
-  margin: 100 350 20 350;
+  height: 300;
+  width: 480;
+  margin: auto;
+  margin-top: 50px;
   padding: 20px;
   font-family: 'Poppins', cursive;
   color: white;
